@@ -1,6 +1,7 @@
 const request = require('supertest')
 const assert = require('assert')
-const app = require('./app')
+// const app = require('./app')
+
 
 describe('/sample test', () => {
     it('should test that true === true', () => {

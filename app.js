@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get("/", (req, res) => {
   console.log("hey from root path!");
-  res.json({ message: "Hello World!", status: 200 });
+  res.json({ message: "Hello Deka!", status: 200 });
 });
 
 app.get("/books", (req, res) => {

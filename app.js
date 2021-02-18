@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => {
+app.get('/', (req, res) => 
   console.log("hey from root path!")
   res.json({message: 'Hello World!', status: 200})
 })
@@ -12,6 +12,10 @@ app.get('/books', (req, res) => {
   })
 
 app.get('/authors', (req, res) => {
+    res.json({message: 'Hello from the authors path!'})
+  })
+
+app.get('/publishers', (req, res) => {
     res.json({message: 'Hello from the authors path!'})
   })
 

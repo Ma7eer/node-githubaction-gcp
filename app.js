@@ -11,6 +11,10 @@ app.get('/books', (req, res) => {
     res.json({message: 'Hello from the book path!'})
   })
 
+app.get('/authors', (req, res) => {
+    res.json({message: 'Hello from the authors path!'})
+  })
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })

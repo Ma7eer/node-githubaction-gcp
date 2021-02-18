@@ -16,7 +16,7 @@ app.get('/authors', (req, res) => {
   })
 
 app.get('/publishers', (req, res) => {
-    res.json({message: 'Hello from the authors path!'})
+    res.json({message: 'Hello from the publishers path!'})
   })
 
 app.listen(port, () => {

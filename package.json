@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/Ma7eer/strapi-docker-gcp#readme",
   "dependencies": {
-    "eslint": "^7.20.0",
     "express": "^4.17.1",
     "i": "^0.3.6"
   },
